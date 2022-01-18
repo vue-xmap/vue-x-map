@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - beipiaoyu2011
 body:
   - type: markdown
     attributes:
@@ -26,14 +26,12 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
+  - type: intpu
     id: version
     attributes:
       label: Version
       description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      placeholder: ex. v2.0.0
     validations:
       required: true
   - type: dropdown
