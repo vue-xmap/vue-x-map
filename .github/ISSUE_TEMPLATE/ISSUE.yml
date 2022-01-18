@@ -26,7 +26,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: intput
+  - type: input
     id: version
     attributes:
       label: Version
