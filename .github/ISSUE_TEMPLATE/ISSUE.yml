@@ -40,12 +40,12 @@ body:
       label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
         - Chrome
+        - Firefox
         - Safari
         - Microsoft Edge
     validations:
-      required: false        
+      required: true        
   - type: textarea
     id: logs
     attributes:
