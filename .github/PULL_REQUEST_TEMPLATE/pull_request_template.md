@@ -4,4 +4,4 @@ Changes proposed in this pull request:
 
 
 
-@vue-xmap/vue-x-map
+@beipiaoyu2011
